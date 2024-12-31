@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البحث عن طبيب</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">البحث عن طبيب</h1>
+            <p class="subtitle">ابحث عن طبيب في منطقتك أو اختصاصه</p>
+        </div>
+        <div class="search-bar">
+            <input type="search" id="search-input" placeholder="ابحث عن الاسم أو المنطقة" />
+        </div>
+        <div class="search-options">
+            <select id="search-by">
+                <option value="name">ابحث عن الاسم</option>
+                <option value="region">ابحث عن المنطقة</option>
+            </select>
+            <select id="job-select">
+                <option value="">اختصاصات</option>
+                <option value="طبيب">طبيب</option>
+                <option value="ممرض">ممرض</option>
+                <option value="مساعد طبي">مساعد طبي</option>
+                <option value="أطباء عامون">أطباء عامون</option>
+            </select>
+        </div>
+        <div id="results" class="results"></div>
+    </div>
+</body>
+</html>
